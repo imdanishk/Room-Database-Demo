@@ -26,6 +26,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/name"
+        android:textColor="@color/black"
         android:textSize="18sp" />
 
     <EditText
@@ -36,7 +37,8 @@
         android:id="@+id/etUpdateName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="@string/enter_name" />
+        android:hint="@string/enter_name"
+        android:textColor="@color/black"/>
 
 
     <TextView
@@ -47,6 +49,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/email_id"
+        android:textColor="@color/black"
         android:textSize="18sp" />
 
     <EditText
@@ -58,7 +61,8 @@
         android:layout_marginStart="8dp"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:hint="@string/enter_email_id" />
+        android:hint="@string/enter_email_id"
+        android:textColor="@color/black"/>
 
 
     <TextView
