@@ -75,7 +75,7 @@
         android:id="@+id/rvItemsList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="visible"
+        android:visibility="gone"
         tools:visibility="visible"
         app:layout_constraintTop_toBottomOf="@id/tvName" />
 
@@ -86,7 +86,7 @@
         android:gravity="center"
         android:text="@string/no_records_available"
         android:textSize="18sp"
-        android:visibility="gone"
+        android:visibility="visible"
         tools:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnAdd" />
